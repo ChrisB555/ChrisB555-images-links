@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(234, 234, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:coral;
+}
+.nav{
+    text-align: center;
+    margin-top: 100px;
+}
+.link{
+    color:rgb(117, 148, 176);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;  
+    cursor: pointer;
+}
+.link:hover{
+    color: rgb(27, 27, 186);
+}
+.img{
+    width: 400px;
+    height: auto;
+    margin:100px 550px;
+    border: 7px solid coral;
+    border-radius: 30px;
+}
+.about{
+    margin: 50px;
+}

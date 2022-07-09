@@ -1,19 +1,20 @@
 body{
-    background-image: linear-gradient(rgb(254, 201, 182),rgb(252, 176, 148), coral);
-   
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 208, 235), rgb(116, 142, 164));
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
-    color:rgb(117, 148, 176);
-   text-align: center;
+    color:coral;
+    text-align: center;
+    margin: 70px 0;
 }
 .nav{
     text-align: center;
-    margin-top: 100px;
-    background-color: coral;
+    margin-top: 98px;
 }
 .link{
-    color:rgb(117, 148, 176);
+    color:coral;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -21,20 +22,23 @@ h1{
     cursor: pointer;
 }
 .link:hover{
-    color: rgb(27, 27, 186);
+    color: rgb(238, 71, 10);
 }
 .img{
-    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
     height: auto;
-    margin:100px 550px;
+    margin-top: 100px;
+    margin-bottom: 110px;
     border: 5px solid coral;
     border-radius: 30px;
-    cursor: pointer;
-    transition: width 2s;
+    cursor: pointer;   
+  
 }
 .img:hover{
-    width:500px;
-   
+    transform: scale(1.1,1.1);
 }
 .about{
     margin: 50px;

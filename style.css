@@ -1,13 +1,16 @@
 body{
-    background-color: rgb(234, 234, 227);
+    background-image: linear-gradient(rgb(252, 176, 148), coral);
+   
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
-    color:coral;
+    color:rgb(117, 148, 176)
+    text-align: center;
 }
 .nav{
     text-align: center;
     margin-top: 100px;
+    background-color: coral;
 }
 .link{
     color:rgb(117, 148, 176);
@@ -24,8 +27,14 @@ h1{
     width: 400px;
     height: auto;
     margin:100px 550px;
-    border: 7px solid coral;
+    border: 5px solid coral;
     border-radius: 30px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.img:hover{
+    width:500px;
+   
 }
 .about{
     margin: 50px;
